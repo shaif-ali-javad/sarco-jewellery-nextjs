@@ -11,9 +11,9 @@ function HeroSection() {
         fill="white"
       />
         <div className="p-4 ralative z-10 w-full text-center">
-            <h1 className="mt-20 md:mt-0 text-4xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">Tech Hub Decor</h1>
-            <p className="mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <div className="mt-4">
+            <h1 className="mt-20 md:mt-0 text-4xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">A Trusted Gold</h1>
+            <p className="mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto">We believe delivery on time and transparent trade policies made possible to achieve the important place in the business within the short span of time. In the competitive arena Sarco Jewellery obliged to satisfy its customer and suppliers.</p>
+            {/* <div className="mt-4">
                 <Link href={"/service"}>
                 <Button
                     borderRadius="1.75rem"
@@ -22,7 +22,7 @@ function HeroSection() {
                     Explore Services
                 </Button>
                 </Link>
-            </div>
+            </div> */}
         </div>
     </div>
   )
