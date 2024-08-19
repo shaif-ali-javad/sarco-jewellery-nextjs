@@ -16,7 +16,7 @@ function Footer() {
               <li>
                 <a
                   href="#"
-                  className="hover:text-white transition-colors duration-300"
+                  className="hover:text-black transition-colors duration-300"
                 >
                   Home
                 </a>
@@ -24,7 +24,7 @@ function Footer() {
               <li>
                 <a
                   href="#"
-                  className="hover:text-white transition-colors duration-300"
+                  className="hover:text-black transition-colors duration-300"
                 >
                   About
                 </a>
@@ -32,7 +32,7 @@ function Footer() {
               <li>
                 <a
                   href="#"
-                  className="hover:text-white transition-colors duration-300"
+                  className="hover:text-black transition-colors duration-300"
                 >
                   Courses
                 </a>
@@ -40,7 +40,7 @@ function Footer() {
               <li>
                 <a
                   href="#"
-                  className="hover:text-white transition-colors duration-300"
+                  className="hover:text-black transition-colors duration-300"
                 >
                   Contact
                 </a>
@@ -52,19 +52,19 @@ function Footer() {
             <div className="flex space-x-4">
               <a
                 href="#"
-                className="hover:text-white transition-colors duration-300"
+                className="hover:text-black transition-colors duration-300"
               >
                 Facebook
               </a>
               <a
                 href="#"
-                className="hover:text-white transition-colors duration-300"
+                className="hover:text-black transition-colors duration-300"
               >
                 Twitter
               </a>
               <a
                 href="#"
-                className="hover:text-white transition-colors duration-300"
+                className="hover:text-black transition-colors duration-300"
               >
                 Instagram
               </a>
