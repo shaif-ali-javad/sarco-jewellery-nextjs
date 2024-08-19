@@ -13,38 +13,38 @@ function CardHoverEffectDemo() {
       isFeatured: true,
     },
     {
-      title: 'The Art of Songwriting',
+      title: 'Risk Free',
       description:
-        'Learn the craft of songwriting from experienced musicians and songwriters.',
+        'For any reason, if you’re unhappy with our payment, we’ll return your gold at no extra cost.',
       slug: 'the-art-of-songwriting',
       isFeatured: true,
     },
     {
-      title: 'Mastering Your Instrument',
+      title: '20,000 + Customers',
       description:
-        'Advanced techniques to master your musical instrument of choice.',
+        'There’s a reason so many customers trust us, keep coming back and refer their contacts.',
       slug: 'mastering-your-instrument',
       isFeatured: true,
     },
     {
-      title: 'Music Production Essentials',
+      title: 'WHOLESALE',
       description:
-        'Get started with music production with this comprehensive overview.',
+        'Sarco Jewellery offers a wide range of wholesale services to support the need of jewelry companies and retailers for large amounts of precious metals in the form of large bars, kilobars, and coins.',
       slug: 'music-production-essentials',
       isFeatured: true,
     },
     // Added two more webinars
     {
-      title: 'Live Performance Techniques',
+      title: 'TRADING PHYSICAL GOLD',
       description:
-        'Enhance your live performance skills with expert tips and strategies.',
+        'Sarco Jewellery is amongst the best destinations for buying and selling gold bars, gold coins and gold bullion in Dubai.',
       slug: 'live-performance-techniques',
       isFeatured: true,
     },
     {
-      title: 'Digital Music Marketing',
+      title: 'REFINED GOLD',
       description:
-        'Learn how to promote your music effectively in the digital age.',
+        'Our experienced team oversees the refining of scrap gold and silver into high-quality bullion, crafted according to the internationally-set standards.',
       slug: 'digital-music-marketing',
       isFeatured: true,
     },
