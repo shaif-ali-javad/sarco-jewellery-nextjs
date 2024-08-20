@@ -1,0 +1,35 @@
+{
+    "courses": [
+      {
+        "id": 1,
+        "title": "INGOTS",
+        "slug": "guitar-fundamentals",
+        "description": "Explore our broad range of exclusive designs, ranging from 1 gram up to 1,000 grams.",
+        "price": 99.99,
+        "instructor": "John Doe",
+        "isFeatured": true,
+        "image": "https://bulliontradingcenter.com/web/image/2016-bc3d8df8/NEF-INGOT.webp" 
+      },
+      {
+        "id": 2,
+        "title": "COINS",
+        "slug": "piano-for-beginners",
+        "description": "We provide you with unmatched designs of 24K gold coins, inspired by our rich culture.  new one as a copy.",
+        "price": 109.99,
+        "instructor": "Jane Smith",
+        "isFeatured": false,
+        "image": "https://bulliontradingcenter.com/web/image/2017-70aae7f8/ISLAMIC-COINS.webp" 
+      },
+      {
+        "id": 3,
+        "title": "Gold Gifts",
+        "slug": "advanced-vocal-techniques",
+        "description": "Impress your loved ones with the most creative gift ideas, flawlessly carved in 24K fine  gold.",
+        "price": 119.99,
+        "instructor": "Emily Johnson",
+        "isFeatured": true,
+        "image": "https://bulliontradingcenter.com/web/image/2018-6d017235/BABYLINE-LOLIPOP.webp" 
+      }
+    ]
+  }
+  

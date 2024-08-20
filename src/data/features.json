@@ -1,0 +1,44 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "2,548.05 AED",
+      "slug": "guitar-fundamentals",
+      "description": "24k ' Disney - Daisy Duck ' Yellow Gold Coin - 8.35g",
+      "price": 99.99,
+      "instructor": "John Doe",
+      "isFeatured": true,
+      "image": "https://bulliontradingcenter.com/web/image/product.product/169/image_512?unique=44ad10a" 
+    },
+    {
+      "id": 2,
+      "title": "1,346.17 AED",
+      "slug": "piano-for-beginners",
+      "description": "24k ' Disney - Mickey Mouse ' Yellow Gold Coin - 4.35g",
+      "price": 109.99,
+      "instructor": "Jane Smith",
+      "isFeatured": false,
+      "image": "https://bulliontradingcenter.com/web/image/product.product/168/image_512?unique=44ad10a" 
+    },
+    {
+      "id": 3,
+      "title": "2,548.05 AED",
+      "slug": "advanced-vocal-techniques",
+      "description": "24k ' Disney - Mickey Mouse ' Yellow Gold Coin - 8.35g",
+      "price": 119.99,
+      "instructor": "Emily Johnson",
+      "isFeatured": true,
+      "image": "https://bulliontradingcenter.com/web/image/product.product/167/image_512?unique=44ad10a" 
+    },
+    {
+      "id": 4,
+      "title": "740.23 AED",
+      "slug": "drumming-mastery",
+      "description": "24k ' Disney - Mickey Mouse ' Yellow Gold Coin - 2.35g",
+      "price": 129.99,
+      "instructor": "Mike Brown",
+      "isFeatured": false,
+      "image": "https://bulliontradingcenter.com/web/image/product.product/166/image_512?unique=44ad10a"
+    }
+  ]
+}
