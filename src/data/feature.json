@@ -1,0 +1,44 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "100% Safe and Secure",
+      "slug": "guitar-fundamentals",
+      "description": "24k ' Disney - Daisy Duck ' Yellow Gold Coin - 8.35g",
+      "price": 99.99,
+      "instructor": "John Doe",
+      "isFeatured": true,
+      "image": "https://bulliontradingcenter.com/web/image/2450-7d92fa63/12.webp" 
+    },
+    {
+      "id": 2,
+      "title": "Variety of Weights & Designs",
+      "slug": "piano-for-beginners",
+      "description": "24k ' Disney - Mickey Mouse ' Yellow Gold Coin - 4.35g",
+      "price": 109.99,
+      "instructor": "Jane Smith",
+      "isFeatured": false,
+      "image": "https://bulliontradingcenter.com/web/image/2447-26bb642d/13.webp" 
+    },
+    {
+      "id": 3,
+      "title": "Made in UAE",
+      "slug": "advanced-vocal-techniques",
+      "description": "24k ' Disney - Mickey Mouse ' Yellow Gold Coin - 8.35g",
+      "price": 119.99,
+      "instructor": "Emily Johnson",
+      "isFeatured": true,
+      "image": "https://bulliontradingcenter.com/web/image/2448-5bc4a5ad/14.webp" 
+    },
+    {
+      "id": 4,
+      "title": "Available across the GCC Region",
+      "slug": "drumming-mastery",
+      "description": "24k ' Disney - Mickey Mouse ' Yellow Gold Coin - 2.35g",
+      "price": 129.99,
+      "instructor": "Mike Brown",
+      "isFeatured": false,
+      "image": "https://bulliontradingcenter.com/web/image/2449-1bdd3a20/15.webp"
+    }
+  ]
+}

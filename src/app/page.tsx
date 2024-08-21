@@ -7,6 +7,7 @@ import CardHoverEffectDemo from "@/components/UpcomingWebinars";
 import Instructors from "@/components/Experts";
 import EXPLORE from "@/components/Explore";
 import FEATURED from "@/components/Featured";
+import FEATURE from "@/components/Feature";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
     {/* <BackgroundGradientDemo/> */}
     <EXPLORE/>
     <FEATURED/>
+    <FEATURE/>
     <CardHoverEffectDemo/>
     <InfiniteMovingCardsDemo/>
     <Instructors/>
