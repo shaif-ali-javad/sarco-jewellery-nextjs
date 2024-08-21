@@ -2,9 +2,9 @@
   "courses": [
     {
       "id": 1,
-      "title": "2,548.05 AED",
+      "title": "100+​",
       "slug": "guitar-fundamentals",
-      "description": "24k ' Disney - Daisy Duck ' Yellow Gold Coin - 8.35g",
+      "description": "Original Designs",
       "price": 99.99,
       "instructor": "John Doe",
       "isFeatured": true,
@@ -12,9 +12,9 @@
     },
     {
       "id": 2,
-      "title": "1,346.17 AED",
+      "title": "88​",
       "slug": "piano-for-beginners",
-      "description": "24k ' Disney - Mickey Mouse ' Yellow Gold Coin - 4.35g",
+      "description": "Years of Experience",
       "price": 109.99,
       "instructor": "Jane Smith",
       "isFeatured": false,
@@ -22,9 +22,9 @@
     },
     {
       "id": 3,
-      "title": "2,548.05 AED",
+      "title": "2000+​",
       "slug": "advanced-vocal-techniques",
-      "description": "24k ' Disney - Mickey Mouse ' Yellow Gold Coin - 8.35g",
+      "description": "Experts",
       "price": 119.99,
       "instructor": "Emily Johnson",
       "isFeatured": true,
@@ -32,9 +32,9 @@
     },
     {
       "id": 4,
-      "title": "740.23 AED",
+      "title": "24/7​",
       "slug": "drumming-mastery",
-      "description": "24k ' Disney - Mickey Mouse ' Yellow Gold Coin - 2.35g",
+      "description": "Customer Support",
       "price": 129.99,
       "instructor": "Mike Brown",
       "isFeatured": false,

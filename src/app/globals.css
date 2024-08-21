@@ -108,3 +108,8 @@ body {
 .text-neutral-500{
   color: #e2d688;
 }
+
+
+.p-0{
+  margin-bottom: -15rem;
+}
