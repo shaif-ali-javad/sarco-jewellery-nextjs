@@ -113,3 +113,16 @@ body {
 .p-0{
   margin-bottom: -15rem;
 }
+
+@media (max-width: 1024px) {
+  .p-0{
+    margin-bottom: -10rem;
+  }
+}
+
+
+@media (max-width: 640px) {
+  .p-0{
+    margin-bottom: 0rem;
+  }
+}
