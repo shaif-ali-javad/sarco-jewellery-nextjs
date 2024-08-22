@@ -8,6 +8,8 @@ import Instructors from "@/components/Experts";
 import EXPLORE from "@/components/Explore";
 import FEATURED from "@/components/Featured";
 import FEATURE from "@/components/Feature";
+import Heritage from "@/components/Heritage";
+import Whygold from "@/components/Whygold";
 
 export default function Home() {
   return (
@@ -19,6 +21,8 @@ export default function Home() {
     <FEATURED/>
     <CardHoverEffectDemo/>
     <InfiniteMovingCardsDemo/>
+    <Heritage/>
+    <Whygold/>
     <Instructors/>
     </main>
   );

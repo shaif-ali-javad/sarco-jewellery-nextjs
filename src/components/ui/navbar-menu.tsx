@@ -28,7 +28,9 @@ export const MenuItem = ({
     <div onMouseEnter={() => setActive(item)} className="relative ">
       <motion.p
         transition={{ duration: 0.3 }}
-        className="cursor-pointer text-black hover:opacity-[0.9] darktext-white"
+        className={`cursor-pointer text-black hover:opacity-[0.9] darktext-white ${
+          active === item ? "underlin" : ""
+        }`} // Add underline if active
       >
         {item}
       </motion.p>

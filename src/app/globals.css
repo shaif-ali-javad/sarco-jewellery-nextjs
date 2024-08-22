@@ -114,9 +114,18 @@ body {
   margin-bottom: -15rem;
 }
 
+.btnprimary{
+  background-color: #ffdf00;
+}
+
 @media (max-width: 1024px) {
   .p-0{
     margin-bottom: -10rem;
+  }
+  
+  .Heritage{
+    margin-bottom: 30rem;
+    padding-bottom: 12rem;
   }
 }
 
@@ -125,4 +134,9 @@ body {
   .p-0{
     margin-bottom: 0rem;
   }
+}
+
+
+.Heritage{
+  margin-bottom: -10rem;
 }
