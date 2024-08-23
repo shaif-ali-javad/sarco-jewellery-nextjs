@@ -25,7 +25,7 @@ function MusicSchoolContactUs() {
         <h1 className="text-lg md:text-7xl text-center font-sans font-bold mb-8 text-white">
           Contact Us
         </h1>
-        <p className="text-neutral max-w-lg mx-auto my-2 text-sm text-center">
+        <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center">
           We&apos;re here to help with any questions about our courses,
           programs, or events. Reach out and let us know how we can assist you
           in your musical journey.
@@ -49,7 +49,7 @@ function MusicSchoolContactUs() {
           ></textarea>
           <button
             type="submit"
-            className="px-6 py-2 rounded-lg bg-teal-500 text-neutral font-medium hover:bg-teal-600 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2"
+            className="px-6 py-2 rounded-lg bg-teal-500 text-white font-medium hover:bg-teal-600 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2"
           >
             Send Message
           </button>

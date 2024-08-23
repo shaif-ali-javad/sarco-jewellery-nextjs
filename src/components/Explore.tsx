@@ -22,7 +22,7 @@ function Page() {
                 <div className="text-xl font-bold text-neutral-600 darktext-white mt-9">
                   {course.title}
                 </div>
-                <div className="text-neutral text-sm max-w-sm mt-2 darktext-neutral-300">
+                <div className="text-neutral-500 text-sm max-w-sm mt-2 darktext-neutral-300">
                   {course.description}
                 </div>
                 <div className="px-4 py-2 mt-3 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold text-center">
