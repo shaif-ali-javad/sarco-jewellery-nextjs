@@ -145,3 +145,14 @@ body {
 .text-neutral{
   color: white
 }
+
+.width{
+  width: 200px;
+  margin: auto;
+  padding-top: 1rem;
+}
+
+.max-w-screen{
+  overflow: hidden;
+ width: 98vw; 
+}
