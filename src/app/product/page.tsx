@@ -20,7 +20,7 @@ function page() {
                   <CardItem
                     as="p"
                     translateZ="60"
-                    className="text-neutral-500 text-sm max-w-sm mt-2 darktext-neutral-300"
+                    className="text-neutral text-sm max-w-sm mt-2 darktext-neutral-300"
                   >
                     {course.description}
                   </CardItem>
