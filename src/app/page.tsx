@@ -18,7 +18,7 @@ export default function Home() {
     {/* <BackgroundGradientDemo/> */}
     <EXPLORE/>
     <FEATURE/>
-    <FEATURED/>
+    {/* <FEATURED/> */}
     <CardHoverEffectDemo/>
     <InfiniteMovingCardsDemo/>
     <Heritage/>
