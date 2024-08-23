@@ -17,9 +17,9 @@ export default function Home() {
     <HeroSection/>
     {/* <BackgroundGradientDemo/> */}
     <EXPLORE/>
-    <FEATURE/>
     {/* <FEATURED/> */}
     <CardHoverEffectDemo/>
+    <FEATURE/>
     <InfiniteMovingCardsDemo/>
     <Heritage/>
     <Whygold/>
