@@ -6,27 +6,6 @@ function CardHoverEffectDemo() {
   
   const featuredWebinars = [
     {
-      title: 'Price Assurance',
-      description:
-        'We’ll match any competitors offer — our prices can’t be beaten.',
-      slug: 'understanding-music-theory',
-      isFeatured: true,
-    },
-    {
-      title: 'Risk Free',
-      description:
-        'For any reason, if you’re unhappy with our payment, we’ll return your gold at no extra cost.',
-      slug: 'the-art-of-songwriting',
-      isFeatured: true,
-    },
-    {
-      title: '20,000 + Customers',
-      description:
-        'There’s a reason so many customers trust us, keep coming back and refer their contacts.',
-      slug: 'mastering-your-instrument',
-      isFeatured: true,
-    },
-    {
       title: 'WHOLESALE',
       description:
         'Sarco Jewellery offers a wide range of wholesale services to support the need of jewelry companies and retailers for large amounts of precious metals in the form of large bars, kilobars, and coins.',
