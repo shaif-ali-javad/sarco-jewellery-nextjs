@@ -8,7 +8,7 @@ function CardHoverEffectDemo() {
     {
       title: 'WHOLESALE',
       description:
-        'Sarco Jewellery offers a wide range of wholesale services to support the need of jewelry companies and retailers for large amounts of precious metals in the form of large bars, kilobars, and coins.',
+        'Noha gold offers a wide range of wholesale services to support the need of jewelry companies and retailers for large amounts of precious metals in the form of large bars, kilobars, and coins.',
       slug: 'music-production-essentials',
       isFeatured: true,
     },
@@ -16,7 +16,7 @@ function CardHoverEffectDemo() {
     {
       title: 'TRADING PHYSICAL GOLD',
       description:
-        'Sarco Jewellery is amongst the best destinations for buying and selling gold bars, gold coins and gold bullion in Dubai.',
+        'Noha gold is amongst the best destinations for buying and selling gold bars, gold coins and gold bullion in Dubai.',
       slug: 'live-performance-techniques',
       isFeatured: true,
     },
