@@ -8,7 +8,7 @@
         "price": 99.99,
         "instructor": "John Doe",
         "isFeatured": true,
-        "image": "https://bulliontradingcenter.com/web/image/2016-bc3d8df8/NEF-INGOT.webp" 
+        "image": "https://blog.providentmetals.com/wp-content/uploads/2019/09/fine-gold-1024x1024.jpg" 
       },
       {
         "id": 2,
@@ -18,7 +18,7 @@
         "price": 109.99,
         "instructor": "Jane Smith",
         "isFeatured": false,
-        "image": "https://bulliontradingcenter.com/web/image/2017-70aae7f8/ISLAMIC-COINS.webp" 
+        "image": "https://images.goodreturns.in/webp/img/2020/10/goldcoins-1602170718.jpg" 
       },
       {
         "id": 3,
@@ -28,7 +28,7 @@
         "price": 119.99,
         "instructor": "Emily Johnson",
         "isFeatured": true,
-        "image": "https://bulliontradingcenter.com/web/image/2018-6d017235/BABYLINE-LOLIPOP.webp" 
+        "image": "https://img2.exportersindia.com/product_images/bc-full/dir_130/3890365/gold-colored-swan-spoon-stand-6-spoons-and-a-stand-1485596024-2702485.jpeg" 
       }
     ]
   }
