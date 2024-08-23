@@ -13,8 +13,8 @@ function page() {
                   <div className="w-full mt-4">
                     <Image
                       src={course.image}
-                      height="600"
-                      width="200"
+                      height="300"
+                      width="100"
                       className="m-auto rounded-xl"
                       alt={course.title}
                     />
