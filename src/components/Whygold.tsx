@@ -7,7 +7,7 @@ function page() {
   return (
     <div className="min-h-screen bg-black pt-20">
       <div className="py-10">
-        <div className="hero-content flex-col">
+        <div className="p-5">
           <h3 className="text-7xl font-bold darktext-white mb-16 ">WHY GOLD</h3>
           <div>
             <h3 className="text-5xl font-bold darktext-white">A HISTORY OF HOLDING VALUE</h3>
