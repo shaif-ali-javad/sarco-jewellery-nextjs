@@ -34,7 +34,7 @@ body {
 
 
 /* .bg-black{
-  background: #ffdf00;
+  background: #c29c3d;
 } */
 
 
@@ -49,27 +49,27 @@ body {
 
 
 .from-neutral-50{
-  color: #ffdf00;
+  color: #c29c3d;
 }
 
 .to-neutral-400{
-  color: #ffdd00;
+  color: #c29c3d;
 }
 
 .text-neutral-300{
-  color: #e2d688;
+  color: #c29c3d;
 }
 
 .text-zinc-100{
-  color: #ffdf00;
+  color: #c29c3d;
 }
 
 .text-zinc-400{
-  color: #e2d688;
+  color: #c29c3d;
 }
 
 .bg-neutral-200{
-  background-color: #ffdf00;
+  background-color: #c29c3d;
 }
 
 .darkbg-slate-800{
@@ -78,35 +78,35 @@ body {
 
 
 .text-gray-100{
-  color: #ffdf00;
+  color: #c29c3d;
 }
 
 .text-gray-400{
-  color: #fff3a8;
+  color: #c29c3d;
 }
 
 .text-white{
-  color:#ffdf00
+  color:#c29c3d
 }
 
 .darktext-white{
-  color: #ffdf00;
+  color: #c29c3d;
 }
 
 .bg-gray-50{
-  color: #e2d688;
+  color: #c29c3d;
 }
 
 .text-neutral-600{
-  color: #e2d688;
+  color: #c29c3d;
 }
 
 .darktext-neutral-300{
-  color: #e2d688;
+  color: #c29c3d;
 }
 
 .text-neutral-500{
-  color: #e2d688;
+  color: #c29c3d;
 }
 
 
@@ -115,7 +115,7 @@ body {
 }
 
 .btnprimary{
-  background-color: #ffdf00;
+  background-color: #c29c3d;
 }
 
 @media (max-width: 1024px) {
@@ -154,5 +154,14 @@ body {
 
 .max-w-screen{
   overflow: hidden;
- width: 98vw; 
+ width: 98vw;
+}
+
+.icons{
+  margin-bottom: -2rem;
+}
+
+.linkedin{
+  padding-bottom: -10rem;
+  margin-bottom: -10rem;
 }

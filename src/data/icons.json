@@ -1,0 +1,35 @@
+{
+    "courses": [
+      {
+        "id": 1,
+        "title": "INGOTS",
+        "slug": "guitar-fundamentals",
+        "description": "Explore our broad range of exclusive designs, ranging from 1 gram up to 1,000 grams.",
+        "price": 99.99,
+        "instructor": "John Doe",
+        "isFeatured": true,
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fitcnet.gr%2Fwp-content%2Fuploads%2F2020%2F09%2FLinkedin-logo-on-transparent-Background-PNG--1024x1024.png&f=1&nofb=1&ipt=e3143c45a453da75e636f209310deab81f041ed8386fb54aef3e0a8cd1568d1c&ipo=images" 
+      },
+      {
+        "id": 2,
+        "title": "COINS",
+        "slug": "piano-for-beginners",
+        "description": "We provide you with unmatched designs of 24K gold coins, inspired by our rich culture.  new one as a copy.",
+        "price": 109.99,
+        "instructor": "Jane Smith",
+        "isFeatured": false,
+        "image": "https://cdn-icons-png.flaticon.com/128/733/733547.png" 
+      },
+      {
+        "id": 3,
+        "title": "Gold Gifts",
+        "slug": "advanced-vocal-techniques",
+        "description": "Impress your loved ones with the most creative gift ideas, flawlessly carved in 24K fine  gold.",
+        "price": 119.99,
+        "instructor": "Emily Johnson",
+        "isFeatured": true,
+        "image": "https://img2.exportersindia.com/product_images/bc-full/dir_130/3890365/gold-colored-swan-spoon-stand-6-spoons-and-a-stand-1485596024-2702485.jpeg" 
+      }
+    ]
+  }
+  
