@@ -6,7 +6,16 @@ import courseData from "@/data/data.json"
 
 function page() {
   return (
+    <div>
+    
+    <div className="img-container-product">
+      <h1 className="text-center text-5xl font-black text-wite">
+        Product
+      </h1>
+    </div>
+
     <div className="min-h-screen bg-black py-12 pt-36">
+  
         <div className="flex flex-wrap justify-center">
             {courseData.courses.map((course) => (
                 <CardContainer className="inter-var m-4" key={course.id}>
@@ -54,6 +63,7 @@ function page() {
             ))}
         </div>  
     </div>
+  </div>
   )
 }
 

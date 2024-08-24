@@ -203,7 +203,7 @@ function Footer() {
       </div>
     </div>
 
-    <p className="text-xs text-white text-center">&copy; 2022. Noha Gold. All rights reserved.</p>
+    <p className="text-xs text-white text-center">&copy; 2024. Noha Gold. All rights reserved.</p>
   </div>
 </footer>
     )
