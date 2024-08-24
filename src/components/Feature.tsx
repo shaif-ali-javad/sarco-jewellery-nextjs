@@ -19,7 +19,7 @@ function page() {
                       alt={course.title}
                     />
                   <div
-                    className="text-xl text-center text-neutral-600 darktext-white mt-9 width"
+                    className="text-xl text-center text-neutral-600 darktext-white mt-9 width m-auto safe"
                   >
                     {course.title}
                   </div>

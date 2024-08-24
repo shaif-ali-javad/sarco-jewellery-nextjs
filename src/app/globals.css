@@ -165,3 +165,8 @@ body {
   padding-bottom: -10rem;
   margin-bottom: -10rem;
 }
+
+.safe{
+  margin: auto;
+  transform: translateX(-13%);
+}

@@ -146,16 +146,16 @@ function Footer() {
           </a>
         </li>
 
-        <li>
+        <li className="linkedin">
           <a
             href="#"
             rel="noreferrer"
             target="_blank"
-            className="text-white transition hover:opacity-75"
+            className="text-white transition hover:opacity-75 "
           >
-            <span className="sr-only">Dribbble</span>
+            <span className="sr-only ">Dribbble</span>
 
-            <svg className="size-6 linkedin" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <svg className="size-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
 
             <path     
             fillRule="evenodd"
