@@ -170,35 +170,11 @@ function Footer() {
     </div>
 
     <div
-      className="m-auto justify-center border-t border-gray-100 pt-8 "
+      className="m-auto justify-center border-t border-gray-100"
       // 
     >
 
-      <div>
-        <p className="font-medium text-white">Quick Links</p>
-
-        <ul className="mt-6 space-y-4 text-sm ">
-          <div className='grid grid-cols-1 gap-8  pt-8 sm:grid-cols-1 lg:grid-cols-4 lg:pt-8'>
-
-          <li>
-            <a href="#" className="text-white transition hover:opacity-75"> Home </a>
-          </li>
-
-          <li>
-            <a href="#" className="text-white transition hover:opacity-75"> About </a>
-          </li>
-
-          <li>
-            <a href="#" className="text-white transition hover:opacity-75"> Product </a>
-          </li>
-          
-          <li>
-            <a href="#" className="text-white transition hover:opacity-75"> Contact </a>
-          </li>
-
-          </div>
-        </ul>
-      </div>
+    
 
       <div>
         <p className="font-medium text-white mt-16">Contact Us</p>
@@ -227,7 +203,7 @@ function Footer() {
       </div>
     </div>
 
-    <p className="text-xs text-white text-center">&copy; 2022. Company Name. All rights reserved.</p>
+    <p className="text-xs text-white text-center">&copy; 2022. Noha Gold. All rights reserved.</p>
   </div>
 </footer>
     )

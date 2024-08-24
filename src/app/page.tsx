@@ -22,7 +22,7 @@ export default function Home() {
     <FEATURE/>
     <InfiniteMovingCardsDemo/>
     <Heritage/>
-    <Whygold/>
+    {/* <Whygold/> */}
     <Instructors/>
     </main>
   );
