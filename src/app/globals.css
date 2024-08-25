@@ -199,3 +199,12 @@ body {
   background-image: url('bitcoin-7260.gif');
   background-size: cover;
 }
+
+
+.bg-black{
+  background-color: none;
+}
+
+.center{
+  transform: translateY(100%);
+}
