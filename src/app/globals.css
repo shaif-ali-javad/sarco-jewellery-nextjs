@@ -194,3 +194,8 @@ body {
   padding-bottom: -5rem;
   z-index: 100;
 }
+
+.artboard {
+  background-image: url('bitcoin-7260.gif');
+  background-size: cover;
+}
