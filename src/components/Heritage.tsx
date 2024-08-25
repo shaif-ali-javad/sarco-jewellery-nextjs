@@ -4,8 +4,8 @@ import React from "react";
 
 function page() {
   return (
-    <div className="min-h-screen bg-black pt-20 Heritage">
-      <div className="py-10">
+    <div className=" bg-black pt-20 Heritage">
+      <div className="min-h py-10">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
             src="https://cdn.apmintldmcc.com/wp-content/uploads/heritage.jpg"
