@@ -138,6 +138,11 @@ body {
   .p-0{
     margin-bottom: 0rem;
   }
+
+  
+  .safe{
+    transform: translateX(-14%);
+  }
 }
 
 
