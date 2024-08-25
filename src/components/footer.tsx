@@ -82,7 +82,7 @@ function Footer() {
           </a>
         </li>
 
-        <li className="linkedin">
+        {/* <li className="linkedin">
           <a
             href="#"
             rel="noreferrer"
@@ -101,7 +101,7 @@ function Footer() {
 
           </svg>
           </a>
-        </li>
+        </li> */}
       </ul>
     </div>
 
