@@ -7,7 +7,7 @@ function Footer() {
   <div className="mx-auto max-w-screen-xl space-y-8 px-4 py-8 sm:px-6 lg:space-y-16 lg:px-8">
     <div className="sm:flex sm:items-center sm:justify-between">
 
-      <ul className="grid grid-cols-5 sm:grid-cols-5 md:grid-cols-5 gap-4 justify-items-center m-auto icons">
+      <ul className="grid grid-cols-4 sm:grid-cols-5 md:grid-cols-4 gap-4 justify-items-center m-auto icons">
         <li>
           <a
             href="#"
