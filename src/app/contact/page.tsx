@@ -26,7 +26,7 @@ function MusicSchoolContactUs() {
           Contact Us
         </h1>
         <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center">
-        We're here to assist you with any questions about our gold products, investment options. Reach out and let us know how we can help you in your journey to secure and grow your wealth with gold!
+        Were here to assist you with any questions about our gold products, investment options. Reach out and let us know how we can help you in your journey to secure and grow your wealth with gold!
         </p>
         <form onSubmit={handleSubmit} className="space-y-4 mt-4">
           <input
