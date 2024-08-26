@@ -152,6 +152,14 @@ body {
   .width{
     width: 100px;
   }
+
+  .hided{
+    display: none;
+  }
+
+  .mobile{
+    display: block;
+  }
 }
 
 
@@ -220,4 +228,38 @@ body {
 
 .nav{
   /* margin-bottom: -3rem; */
+}
+
+.logo{
+  position: absolute;
+  left: 1rem;
+  letter-spacing: -1px;
+  font-family: serif;
+}
+
+@media (min-width: 640px) {
+
+  .mobile{
+    display: none;
+  }
+}
+
+
+.exit{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.mobile-menu{
+  position: absolute;
+  top: 70px;
+  left: 0px;
+  display: none;
+}
+
+
+/* When the checkbox is checked, swap the icons */
+input[type="checkbox"]:checked ~ .mobile-menu{
+  display: block;
 }
