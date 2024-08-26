@@ -25,14 +25,14 @@ export const MenuItem = ({
   children?: React.ReactNode;
 }) => {
   return (
-    <div onMouseEnter={() => setActive(item)} className="relative ">
+    <div onMouseEnter={() => setActive(item)} className="relative">
       <motion.p
         transition={{ duration: 0.3 }}
         className={`cursor-pointer text-neutral-400 hover:opacity-[0.9] darktext-white ${
           active === item ? "underlin" : ""
         }`} // Add underline if active
       >
-        {item}
+        {item}  
       </motion.p>
       {active !== null && (
         <motion.div
@@ -41,7 +41,7 @@ export const MenuItem = ({
           transition={transition}
         >
           {active === item && children && (
-            <div className="absolute top-[calc(100%_+_1.2rem)] left-1/2 transform -translate-x-1/2 pt-4">
+            <div className="absolute">
               <motion.div
                 transition={transition}
                 layoutId="active" // layoutId ensures smooth animation
@@ -49,7 +49,7 @@ export const MenuItem = ({
               >
                 <motion.div
                   layout // layout ensures smooth animation
-                  className="w-max h-full p-4"
+                  className="w-full h-full p-4"
                 >
                   {children}
                 </motion.div>
@@ -72,7 +72,7 @@ export const Menu = ({
   return (
     <nav
       onMouseLeave={() => setActive(null)} // resets the state
-      className="relative rounded-full boder border-transparent dark:bg-black dark:border-white/[0.2] bg-white shadow-input flex justify-center space-x-4 px-8 py-6 "
+      className="relative border-transparent dark:bg-black dark:border-white/[0.2] bg-white shadow-input flex justify-center space-x-4 py-6"
     >
       {children}
     </nav>
@@ -103,7 +103,7 @@ export const ProductItem = ({
         <h4 className="text-xl font-bold mb-1 text-neutral-400 ">
           {title}
         </h4>
-        <p className="text-neutral-400 text-sm max-w-[10rem] ">
+        <p className="text-neutral-400 text-sm ">
           {description}
         </p>
       </div>
