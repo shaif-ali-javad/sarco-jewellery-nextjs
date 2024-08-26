@@ -237,6 +237,11 @@ body {
   font-family: serif;
 }
 
+.mobile-logo{
+  letter-spacing: -1px;
+  font-family: serif;
+}
+
 @media (min-width: 640px) {
 
   .mobile{
@@ -260,6 +265,6 @@ body {
 
 
 /* When the checkbox is checked, swap the icons */
-input[type="checkbox"]:checked ~ .mobile-menu{
+/* input[type="checkbox"]:checked ~ .mobile-menu ~ .swap-off{
   display: block;
-}
+} */
