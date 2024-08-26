@@ -143,6 +143,15 @@ body {
   .safe{
     transform: translateX(-14%);
   }
+
+  
+  .center{
+    transform: translateY(100%);
+  }
+
+  .width{
+    width: 100px;
+  }
 }
 
 
@@ -156,7 +165,7 @@ body {
 }
 
 .width{
-  width: 200px;
+  width: 170px;
   margin: auto;
   padding-top: 1rem;
 }
@@ -192,7 +201,7 @@ body {
 .min-h{
   margin-bottom: -5rem;
   padding-bottom: -5rem;
-  z-index: 100;
+  z-index: 1;
 }
 
 .artboard {
@@ -205,6 +214,10 @@ body {
   background-color: none;
 }
 
-.center{
-  transform: translateY(100%);
+.text-color{
+  color: white;
+}
+
+.nav{
+  /* margin-bottom: -3rem; */
 }

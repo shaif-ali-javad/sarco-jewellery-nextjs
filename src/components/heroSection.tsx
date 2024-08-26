@@ -35,7 +35,8 @@ function HeroSection() {
         }}
         className="z-50 flex flex-col justify-center items-center"
       >
-        <motion.h1 className="font-bold text-5xl md:text-6xl text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 pt-4">
+        
+        <motion.h1 className="font-bold text-5xl md:text-6xl text-center from-neutral-50 to-neutral-400 pt-4">
           Noha gold
         </motion.h1>
         <motion.p className="font-bold text-xl md:text-4xl text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 pt-4">

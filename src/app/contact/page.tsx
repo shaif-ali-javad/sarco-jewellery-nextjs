@@ -13,7 +13,7 @@ function MusicSchoolContactUs() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 dark:bg-gray-900 py-12 pt-36 relative">
+    <div className="min-h-screen bg-gray-100 dark:bg-gray-900 py-12 pt-36 relative z-[400]">
       {' '}
       {/* Ensure the container is relative */}
       {/* BackgroundBeams with adjusted z-index */}
@@ -22,7 +22,7 @@ function MusicSchoolContactUs() {
       <div className="max-w-2xl mx-auto p-4 relative z-10">
         {' '}
         {/* Add relative and z-10 to bring content to the front */}
-        <h1 className="text-lg md:text-7xl text-center font-sans font-bold mb-8 text-white">
+        <h1 className="text-4xl md:text-7xl text-center font-sans font-bold mb-8 text-white">
           Contact Us
         </h1>
         <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center">
