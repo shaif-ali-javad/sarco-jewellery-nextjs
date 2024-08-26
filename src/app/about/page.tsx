@@ -15,7 +15,7 @@ function page() {
       <h1 className="md:text-7xl text-3xl lg:text-4xl font-bold text-center text-white relative z-20">
       ABOUT US
       </h1>
-      <div className="w-[40rem] h-40 relative">
+      <div className="w-[40rem] h-10 relative">
         {/* Gradients */}
         <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[2px] w-3/4 blur-sm" />
         <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-px w-3/4" />
@@ -49,7 +49,7 @@ function page() {
       <h1 className="md:text-7xl text-3xl lg:text-4xl font-bold text-center text-white relative z-20">
       VISION
       </h1>
-      <div className="w-[40rem] h-40 relative">
+      <div className="w-[40rem] h-10 relative">
         {/* Gradients */}
         <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[2px] w-3/4 blur-sm" />
         <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-px w-3/4" />
@@ -85,7 +85,7 @@ function page() {
       <h1 className="md:text-7xl text-3xl lg:text-4xl font-bold text-center text-white relative z-20">
       BUILT ON LEGACY
       </h1>
-      <div className="w-[40rem] h-40 relative">
+      <div className="w-[40rem] h-10 relative">
         {/* Gradients */}
         <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[2px] w-3/4 blur-sm" />
         <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-px w-3/4" />
@@ -124,7 +124,7 @@ function page() {
       <h1 className="md:text-7xl text-3xl lg:text-4xl font-bold text-center text-white relative z-20">
       PLEDGE
       </h1>
-      <div className="w-[40rem] h-40 relative">
+      <div className="w-[40rem] h-10 relative">
         {/* Gradients */}
         <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[2px] w-3/4 blur-sm" />
         <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-px w-3/4" />
