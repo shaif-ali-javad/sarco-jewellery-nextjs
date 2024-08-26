@@ -7,7 +7,7 @@ function page() {
     <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-4 justify-items-center'>
 
       <img className='rounded-xl mb-7' src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.providesupport.com%2Fblog%2Fwp-content%2Fuploads%2F2017%2F04%2FKeeping-customers-happy.jpg&f=1&nofb=1&ipt=1bb3598a99b5e9b70b13d46d9ce1dedd9735cd4eb79972d40c5e490c51365755&ipo=images" alt="" />
-      <div className='m-auto'>
+      <div className='p-6 m-auto'>
         <p className='font-bold text-4xl mb-3'>ABOUT US</p>
         <p>Noha gold is a trusted name in the industry for the past many years and the leading precious metals trading company in Dubai. The team has been diligently trained in the art of identifying, testing and analyzing precious metals. A highly reliable service provider of accurate evaluation and substantial. Noha gold also offers quality gold bars, gold coins and Jewellery bars. Meeting the increasing demand of regional and international markets, Noha gold supplies the finest precious metals to our clients with very friendly personal assistance. Noha gold unveils transparent physical Jewellery trading activity and provides the most rewarding trading opportunities in precious metals in UAE. Easy, trustworthy and hassle free processing steps sets Noha gold a cut above the rest.</p>
       </div>
