@@ -3,11 +3,11 @@ import courseData from "@/data/icons.json";
 
 function Footer() {
     return (
-      <footer className="">
-  <div className="mx-auto max-w-screen-xl space-y-8 px-4 py-8 sm:px-6 lg:space-y-16 lg:px-8">
-    <div className="sm:flex sm:items-center sm:justify-between">
+      <footer className="bg-black">
+  <div className="mx-auto max-w-screen-xl space-y-8 px-4 py-8 sm:px-6 lg:space-y-16 lg:px-8 bg">
+    <div className="sm:flex sm:items-center sm:justify-between bg">
 
-      <ul className="grid grid-cols-4 sm:grid-cols-5 md:grid-cols-4 gap-4 justify-items-center m-auto icons">
+      <ul className="grid grid-cols-4 sm:grid-cols-5 md:grid-cols-4 gap-4 justify-items-center m-auto icons bg">
         <li>
           <a
             href="#"

@@ -272,3 +272,8 @@ body {
 /* input[type="checkbox"]:checked ~ .mobile-menu ~ .swap-off{
   display: block;
 } */
+
+
+.bg{
+  background-color: transparent !important;
+}
