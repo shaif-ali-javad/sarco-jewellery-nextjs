@@ -264,6 +264,10 @@ body {
 }
 
 
+.open:hover ~ .mobile-menu{
+  left: 100px;
+}
+
 /* When the checkbox is checked, swap the icons */
 /* input[type="checkbox"]:checked ~ .mobile-menu ~ .swap-off{
   display: block;

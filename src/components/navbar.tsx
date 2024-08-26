@@ -7,6 +7,12 @@ import { HoveredLink, Menu, MenuItem, ProductItem } from "./ui/navbar-menu";
 function Navbar({ className }: { className?: string }) {
   const [active, setActive] = useState<string | null>(null);
 
+  const [isActive, setIsActive] = useState(false);
+
+  const toggleClass = () => {
+    setIsActive(!isActive);
+  };
+
   return (
   <div>
 
@@ -51,14 +57,16 @@ function Navbar({ className }: { className?: string }) {
           Contact
         </Link>
       </div>
+<div className="{'active': isActive}"
+  onClick={toggleClass}>
 
-        <label className="btn btn-circle swap swap-rotate exit">
+        <label className="btn btn-circle swap swap-rotate exit" >
           {/* this hidden checkbox controls the state */}
-          <input type="checkbox" />
+          <input type="checkbox" className="open"/>
 
           {/* hamburger icon */}
           <svg
-            className="swap-off fill-current"
+            className="swap-off fill-current open"
             xmlns="http://www.w3.org/2000/svg"
             width="32"
             height="32"
@@ -68,7 +76,7 @@ function Navbar({ className }: { className?: string }) {
 
           {/* close icon */}
           <svg
-            className="swap-on fill-current"
+            className="swap-on fill-current open"
             xmlns="http://www.w3.org/2000/svg"
             width="32"
             height="32"
@@ -77,6 +85,7 @@ function Navbar({ className }: { className?: string }) {
               points="400 145.49 366.51 112 256 222.51 145.49 112 112 145.49 222.51 256 112 366.51 145.49 400 256 289.49 366.51 400 400 366.51 289.49 256 400 145.49" />
           </svg>
         </label>
+        </div>
 
         </div>
     </div>
