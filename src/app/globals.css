@@ -286,3 +286,11 @@ body {
 .hover:hover{
   background-color: #3e3e3e;
 }
+
+.descriptin{
+  margin-top: -2rem;
+}
+
+.descriptin-0{
+  margin-top: -1rem;
+}
