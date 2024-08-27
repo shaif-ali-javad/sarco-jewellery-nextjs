@@ -1,7 +1,7 @@
 import BackgroundGradientDemo from "@/components/featured-services";
 import HeroSection from "@/components/heroSection";
 import Image from "next/image";
-import Whychoosus from "@/components/WhyChoosUs"
+// import Whychoosus from "@/components/WhyChoosUs"
 import { InfiniteMovingCardsDemo } from "@/components/TestimonalCards";
 import CardHoverEffectDemo from "@/components/UpcomingWebinars";
 import Instructors from "@/components/Experts";
