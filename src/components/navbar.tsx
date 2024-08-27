@@ -57,10 +57,10 @@ function Navbar({ className }: { className?: string }) {
     <label htmlFor="my-drawer" aria-label="close sidebar" className="drawer-overlay"></label>
     <ul className="menu bg-black text-base-content min-h-full w-56 p-4">
       {/* Sidebar content here */}
-      <li className="hover rounded-xl"><Link className="text-white" href={"/"}>Home</Link></li>
-      <li className="hover rounded-xl"><Link className="text-white" href={"/about"}>About</Link></li>
-      <li className="hover rounded-xl"><Link className="text-white" href={"/product"}>Product</Link></li>
-      <li className="hover rounded-xl"><Link className="text-white" href={"/contact"}>Contact</Link></li>
+      <li className="hover rounded-xl"><Link className="text-white font-medium" href={"/"}>Home</Link></li>
+      <li className="hover rounded-xl"><Link className="text-white font-medium" href={"/about"}>About</Link></li>
+      <li className="hover rounded-xl"><Link className="text-white font-medium" href={"/product"}>Product</Link></li>
+      <li className="hover rounded-xl"><Link className="text-white font-medium" href={"/contact"}>Contact</Link></li>
     </ul>
   </div>
 </div>
