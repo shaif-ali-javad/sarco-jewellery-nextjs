@@ -288,9 +288,10 @@ body {
 }
 
 .descriptin{
-  margin-top: -2rem;
+  margin-top: -3rem;
+  text-align: justify;
 }
 
-.descriptin-0{
+/* .descriptin-0{
   margin-top: -1rem;
-}
+} */
