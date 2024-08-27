@@ -11,7 +11,7 @@ function Navbar({ className }: { className?: string }) {
   <div>
 
     <div
-      className={cn("fixed top-0 inset-x-0 w-full mx-auto z-50 hided", className)}
+      className={cn("fixed top-0 inset-x-0 w-full mx-auto hided", className)}
     >
       <Menu setActive={setActive}>
       <p className="text-neutral-400 logo">NOHA GOLD</p>
@@ -32,7 +32,7 @@ function Navbar({ className }: { className?: string }) {
     </div>
 
     <div
-      className={cn("fixed top-0 inset-x-0 w-full mx-auto z-50 mobile", className)}
+      className={cn("fixed top-0 inset-x-0 w-full mx-auto z-[500] mobile", className)}
     >
       <div className="bg-black p-6">
       <p className="text-neutral-400 mobile-logo">NOHA GOLD</p>
