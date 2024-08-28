@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import React from "react";
 import { ImagesSlider } from "@/components/ui/images-slider";
-
+import img0 from "../../public/wall-paper-1.jpg"
 import Link from "next/link"
 // import { Spotlight } from "./ui/Spotlight"
 import { Button } from "./ui/moving-border"
@@ -10,17 +10,17 @@ import { Button } from "./ui/moving-border"
 function HeroSection() {
 
   const images = [
-    'https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fs1.picswalls.com%2Fwallpapers%2F2014%2F08%2F16%2Fgold-high-definition-wallpaper_072507547_204.jpg&f=1&nofb=1&ipt=9bee952d9a1c28e11827226f8586470b85e26c4d046133f962df29dfafccb640&ipo=images',
-    "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fhintergrundbild.org%2Fwallpaper%2Ffull%2Fe%2F0%2F9%2F35094-goldene-hintergrundbilder-2880x1800-retina.jpg&f=1&nofb=1&ipt=9086292fa99f8d6166caa71f3f6b4663d3bea15fe286c4cc61e491e08d132110&ipo=images",
-    "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F87%2F99%2Fa1%2F8799a1a22f96ea1e5c00f1a6d42fb34f.jpg&f=1&nofb=1&ipt=5ccbd74b774968ff51c9f8c310e24fb2a5362d7ebcfbad4a7aa9b70bfd2b4db6&ipo=images",
+    'https://shaif-ali-javad.github.io/image-storage/wall-paper-1.jpg',
+    "https://shaif-ali-javad.github.io/image-storage/wall-paper-1.jpg",
+    "https://shaif-ali-javad.github.io/image-storage/wall-paper-1.jpg",
   ];
 
   return (
-    <div className=" h-[30rem] w-full rounded-md items-center justify-center relative overflow-hidden mx-auto pb-30 md:py-0 mb-20"
+    <div className=" h-full w-full rounded-md items-center justify-center relative mx-auto pb-30 md:py-0 mb-20"
     >
 
 
-    <ImagesSlider className="h-[40rem]" images={images}>
+    <ImagesSlider className="h-full" images={images}>
       <motion.div
         initial={{
           opacity: 0,

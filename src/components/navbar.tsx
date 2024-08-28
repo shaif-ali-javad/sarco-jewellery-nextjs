@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { cn } from "@/utils/cn";
 import { HoveredLink, Menu, MenuItem, ProductItem } from "./ui/navbar-menu";
+import img0 from '../../public/noha-gold-logo1.png'
 
 function Navbar({ className }: { className?: string }) {
   const [active, setActive] = useState<string | null>(null);
@@ -14,7 +15,8 @@ function Navbar({ className }: { className?: string }) {
       className={cn("fixed top-0 inset-x-0 w-full mx-auto hided", className)}
     >
       <Menu setActive={setActive}>
-      <p className="text-neutral-400 logo">NOHA GOLD</p>
+        <img src='https://shaif-ali-javad.github.io/image-storage/noha-gold-logo1.png' alt="logo" className="logo"/>
+      {/* <p className="text-neutral-400 ">NOHA GOLD</p> */}
         <Link href={"/"}>
         <MenuItem setActive={setActive} active={active} item="Home"/>
         </Link>
@@ -35,7 +37,7 @@ function Navbar({ className }: { className?: string }) {
       className={cn("fixed top-0 inset-x-0 w-full mx-auto z-[500] mobile", className)}
     >
       <div className="bg-black p-6">
-      <p className="text-neutral-400 mobile-logo">NOHA GOLD</p>
+      <img src='https://shaif-ali-javad.github.io/image-storage/noha-gold-logo1.png' alt="logo" className="logo-mobile"/>
       
 
 

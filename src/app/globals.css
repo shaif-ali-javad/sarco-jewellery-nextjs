@@ -225,13 +225,6 @@ body {
   /* margin-bottom: -3rem; */
 }
 
-.logo{
-  position: absolute;
-  left: 1rem;
-  letter-spacing: -1px;
-  font-family: serif;
-}
-
 .mobile-logo{
   letter-spacing: -1px;
   font-family: serif;
@@ -299,4 +292,71 @@ body {
 
 .hided{
   z-index: 1000;
+}
+
+.height{
+  height: auto;
+}
+
+.mt-yo{
+  margin-top: 70px;
+}
+
+.mt-yo-mobile{
+  margin-top: 70px;
+}
+
+/* .img0{
+  background-image: url('../../public/wall-paper-1.jpg');
+} */
+
+.img0{
+  margin-top: -20rem;
+  margin-bottom: 10rem
+}
+
+.button-0{
+  margin-left: 30px;
+}
+
+.logo{
+  position: absolute;
+  top: 15px;
+  left: 1rem;
+  letter-spacing: -1px;
+  font-family: serif;
+  width: 40px;
+}
+
+.logo-mobile{
+  position: absolute;
+  top: 5px;
+  left: 1rem;
+  letter-spacing: -1px;
+  font-family: serif;
+  width: 35px;
+}
+
+.open{
+  margin-top: 13px;
+}
+
+@media (max-width: 500px) {
+  .mt-yo-mobile{
+    display: block;
+  }
+
+  .mt-yo{
+    display: none;
+  }
+}
+
+@media (min-width: 500px) {
+  .mt-yo-mobile{
+    display: none;
+  }
+
+  .mt-yo{
+    display: block;
+  }
 }

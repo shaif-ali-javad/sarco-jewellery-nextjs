@@ -1,5 +1,6 @@
 // import BackgroundGradientDemo from "@/components/featured-services";
-import HeroSection from "@/components/heroSection";
+// import HeroSection from "@/components/heroSection";
+import HeroSection0 from "@/components/heroSection0";
 // import Image from "next/image";
 // import Whychoosus from "@/components/WhyChoosUs"
 import { InfiniteMovingCardsDemo } from "@/components/TestimonalCards";
@@ -14,7 +15,8 @@ import Heritage from "@/components/Heritage";
 export default function Home() {
   return (
     <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02]">
-    <HeroSection/>
+    {/* <HeroSection/> */}
+    <HeroSection0/>
     {/* <BackgroundGradientDemo/> */}
     <EXPLORE/>
     {/* <FEATURED/> */}

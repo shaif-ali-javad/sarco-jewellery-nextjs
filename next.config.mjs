@@ -5,6 +5,16 @@ const nextConfig = {
     images: {
         unoptimized: true,
     },
+    productionBrowserSourceMaps: false,
+  webpack: (config, { dev }) => {
+    if (dev) {
+      config.devtool = 'cheap-module-source-map';
+    }
+    return config;
+  },
+  experimental: {
+    esmExternals: true,
+  },
 };
 
 export default nextConfig;
