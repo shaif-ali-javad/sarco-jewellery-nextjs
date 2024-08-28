@@ -6,6 +6,12 @@ import courseData from "@/data/feature.json"
 function page() {
   return (
     <div className="min-h-screen bg-black py-20 px-5 max-w-screen">
+      <h2 className="text-5xl text-neutral-600 darktext-white mt-9 m-auto">
+      Why Choose Us
+      </h2>
+      <p className=" text-neutral-600 darktext-white mt-7 ">
+      At Noha Gold, we offer unparalleled quality in gold bullion, ensuring each product meets rigorous international standards. Our competitive pricing provides exceptional value without compromising on excellence. With years of industry expertise, we deliver reliable and transparent transactions, backed by a dedicated team committed to outstanding customer service. Our gold bullion adheres to global standards, making it a trusted choice both locally and internationally. Choose Noha Gold for a superior experience where quality, service, and reliability come together seamlessly.
+      </p>
         <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 justify-items-center">
             {courseData.courses.map((course) => (
                 <div className="inter-var m-4" key={course.id}> 
