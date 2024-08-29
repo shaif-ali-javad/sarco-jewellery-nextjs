@@ -339,7 +339,7 @@ body {
 
 .logo{
   position: absolute;
-  top: 15px;
+  top: 8px;
   left: 1rem;
   letter-spacing: -1px;
   font-family: serif;
@@ -348,7 +348,7 @@ body {
 
 .logo-mobile{
   position: absolute;
-  top: 5px;
+  top: -2px;
   left: 1rem;
   letter-spacing: -1px;
   font-family: serif;
@@ -386,4 +386,20 @@ body {
 
 .text-black-0{
   color: #fff;
+}
+
+.logo-name{
+  margin-top: 15px;
+  margin-left: 65px;
+  width: 100px;
+  color: #793f3d;
+  font-family: sans-serif;
+}
+
+.logo-mobile-name{
+  margin-top: 6px;
+  margin-left: 60px;
+  width: 100px;
+  color: #793f3d;
+  font-family: sans-serif;
 }

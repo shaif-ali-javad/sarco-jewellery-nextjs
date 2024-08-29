@@ -15,7 +15,10 @@ function Navbar({ className }: { className?: string }) {
       className={cn("fixed top-0 inset-x-0 w-full mx-auto hided", className)}
     >
       <Menu setActive={setActive}>
+        <div className="logo">
         <img src='https://shaif-ali-javad.github.io/image-storage/noha-gold-logo.png' alt="logo" className="logo"/>
+        <p className="logo-name font-bold">NOHA GOLD</p>
+        </div>
       {/* <p className="text-neutral-400 ">NOHA GOLD</p> */}
         <Link href={"/"}>
         <MenuItem setActive={setActive} active={active} item="Home"/>
@@ -37,7 +40,10 @@ function Navbar({ className }: { className?: string }) {
       className={cn("fixed top-0 inset-x-0 w-full mx-auto z-[500] mobile", className)}
     >
       <div className="bg-black p-6">
-      <img src='https://shaif-ali-javad.github.io/image-storage/noha-gold-logo.png' alt="logo" className="logo-mobile"/>
+      <div className="logo">
+        <img src='https://shaif-ali-javad.github.io/image-storage/noha-gold-logo.png' alt="logo" className="logo-mobile"/>
+        <p className="logo-mobile-name font-bold">NOHA GOLD</p>
+        </div>
       
 
 
