@@ -20,7 +20,7 @@ function Page() {
                   className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                   alt={course.title}
                 />
-                <div className="text-xl font-bold text-white darktext-white mt-9">
+                <div className="text-xl font-bold text-white mt-9">
                   {course.title}
                 </div>
                 <div className="text-black text-sm max-w-sm mt-2 darktext-neutral-300">
