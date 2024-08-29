@@ -28,7 +28,7 @@ export const MenuItem = ({
     <div onMouseEnter={() => setActive(item)} className="relative">
       <motion.p
         transition={{ duration: 0.3 }}
-        className={`cursor-pointer text-neutral-400 hover:opacity-[0.9] darktext-white ${
+        className={`cursor-pointer hover:opacity-[0.9] text-white ${
           active === item ? "underlin" : ""
         }`} // Add underline if active
       >
@@ -45,7 +45,7 @@ export const MenuItem = ({
               <motion.div
                 transition={transition}
                 layoutId="active" // layoutId ensures smooth animation
-                className="bg-white dark:bg-black backdrop-blur-sm rounded-2xl overflow-hidden border border-black/[0.2] dark:border-white/[0.2] shadow-xl"
+                className="bg-white darkbg-black backdrop-blur-sm rounded-2xl overflow-hidden border border-black/[0.2] dark:border-white/[0.2] shadow-xl"
               >
                 <motion.div
                   layout // layout ensures smooth animation
@@ -72,7 +72,7 @@ export const Menu = ({
   return (
     <nav
       onMouseLeave={() => setActive(null)} // resets the state
-      className="relative border-transparent dark:bg-black dark:border-white/[0.2] bg-white shadow-input flex justify-center space-x-4 py-6"
+      className="relative border-transparent darkbg-black dark:border-white/[0.2] bg-white shadow-input flex justify-center space-x-4 py-6"
     >
       {children}
     </nav>
@@ -100,10 +100,10 @@ export const ProductItem = ({
         className="flex-shrink-0 rounded-md shadow-2xl"
       />
       <div>
-        <h4 className="text-xl font-bold mb-1 text-neutral-400 ">
+        <h4 className="text-xl font-bold mb-1 text-white ">
           {title}
         </h4>
-        <p className="text-neutral-400 text-sm ">
+        <p className="text-white text-sm ">
           {description}
         </p>
       </div>
@@ -115,7 +115,7 @@ export const HoveredLink = ({ children, ...rest }: any) => {
   return (
     <Link
       {...rest}
-      className="text-neutral-700 hover:text-black "
+      className="text-white hover:text-white "
     >
       {children}
     </Link>

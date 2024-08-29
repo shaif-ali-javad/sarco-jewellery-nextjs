@@ -20,10 +20,10 @@ function Page() {
                   className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                   alt={course.title}
                 />
-                <div className="text-xl font-bold text-neutral-600 darktext-white mt-9">
+                <div className="text-xl font-bold text-white darktext-white mt-9">
                   {course.title}
                 </div>
-                <div className="text-neutral-500 text-sm max-w-sm mt-2 darktext-neutral-300">
+                <div className="text-black text-sm max-w-sm mt-2 darktext-neutral-300">
                   {course.description}
                 </div>
                 <Link href={"/product"}>

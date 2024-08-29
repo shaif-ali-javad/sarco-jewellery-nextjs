@@ -37,8 +37,8 @@ function Instructors() {
   return (
     <div className="relative h-[30rem] overflow-hidden flex items-center justify-center">
         <WavyBackground className="w-full max-w-7xl mx-auto flex flex-col items-center justify-center h-full">
-            <h2 className="text-2xl md:text-4xl lg:text-7xl from-neutral-50 font-bold text-center mb-5 center">Get the best</h2>
-            <p className="text-base md:text-lg from-neutral-50 text-center center">We will guide your Though the journey</p>
+            <h2 className="text-2xl md:text-4xl lg:text-7xl text-black-0 font-bold text-center mb-5 center">Get the best</h2>
+            <p className="text-base md:text-lg text-black-0 text-center center">We will guide your Though the journey</p>
             {/* <div className="flex flex-row items-center justify-center mb-10 w-full">
                 <AnimatedTooltip items={instructors} />
             </div> */}

@@ -25,7 +25,7 @@ function MusicSchoolContactUs() {
         <h1 className="text-4xl md:text-7xl text-center font-sans font-bold mb-8 text-white">
           Contact Us
         </h1>
-        <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center">
+        <p className="text-black max-w-lg mx-auto my-2 text-sm text-center">
         Were here to assist you with any questions about our gold products, investment options. Reach out and let us know how we can help you in your journey to secure and grow your wealth with gold!
         </p>
         <form onSubmit={handleSubmit} className="space-y-4 mt-4">
@@ -47,7 +47,7 @@ function MusicSchoolContactUs() {
           ></textarea>
           <button
             type="submit"
-            className="px-6 py-2 rounded-lg bg-teal-500 text-white font-medium hover:bg-teal-600 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2"
+            className="px-6 py-2 rounded-lg bg-teal-500 text-black-0 font-medium hover:bg-teal-600 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2"
           >
             Send Message
           </button>
