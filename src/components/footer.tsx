@@ -116,22 +116,22 @@ function Footer() {
         <p className="font-medium text-black mt-16">Contact Us</p>
 
         <ul className="mt-6 space-y-4 text-sm ">
-          <div className='grid grid-cols-1 gap-8  pt-8 sm:grid-cols-1 lg:grid-cols-4 lg:pt-8'>
+          <div className='grid grid-cols-1 gap-8  pt-8 sm:grid-cols-1 lg:grid-cols-3 lg:pt-8 text-center'>
 
           <li>
-            <a href="#" className="text-black transition hover:opacity-75"> Dubai, UAE </a>
+            <a href="#" className="text-black transition hover:opacity-75"> Shop Number Six
+              Golden Building Behind Gold Land Building
+              Deira Gold Souq </a>
           </li>
 
           <li>
-            <a href="#" className="text-black transition hover:opacity-75"> .......... </a>
+            <a href="#" className="text-black transition hover:opacity-75"> 
+              Email: info@nohagold.ae </a>
           </li>
 
           <li>
-            <a href="#" className="text-black transition hover:opacity-75"> Email: ............. </a>
-          </li>
-
-          <li>
-            <a href="#" className="text-black transition hover:opacity-75"> Phone: ............. </a>
+            <a href="#" className="text-black transition hover:opacity-75"> 
+              Phone: +971 50 897 0026 </a>
           </li>
 
           </div>
