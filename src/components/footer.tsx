@@ -113,7 +113,7 @@ function Footer() {
     
 
       <div>
-        <p className="font-medium text-black mt-16">Contact Us</p>
+        <p className="font-medium text-black mt-16 text-center">Contact Us</p>
 
         <ul className="mt-6 space-y-4 text-sm ">
           <div className='grid grid-cols-1 gap-8  pt-8 sm:grid-cols-1 lg:grid-cols-3 lg:pt-8 text-center'>
