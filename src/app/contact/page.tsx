@@ -54,7 +54,7 @@ function MusicSchoolContactUs() {
         </form>
 
       </div>
-        <div className="grid grid-cols-2 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4 justify-items-center text-black mt-10 px-2 text-center">
+        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4 justify-items-center text-black mt-10 px-2 text-center">
   <div className=' relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-full h-auto rounded-xl p-7 border m-auto'>
   <h2 className="text-white text-2xl mb-3">Location</h2>
   <p>
