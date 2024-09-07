@@ -403,3 +403,9 @@ body {
   color: #793f3d;
   font-family: sans-serif;
 }
+
+@media (max-width: 471px) {
+  .height{
+    height: 10rem;
+  }
+}
