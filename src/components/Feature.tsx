@@ -6,7 +6,7 @@ import courseData from "@/data/feature.json"
 function page() {
   return (
     <div className="min-h-screen bg-black py-20 px-5 max-w-screen">
-      <h2 className="text-5xl text-white mt-9 m-auto">
+      <h2 className="text-4xl md:text-5xl text-white mt-9 m-auto text-center font-bold">
       Why Choose Us
       </h2>
       <p className=" text-black mt-7 ">

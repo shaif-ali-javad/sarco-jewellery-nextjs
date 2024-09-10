@@ -90,7 +90,7 @@ body {
 }
 
 .text-white{
-  color:#e4bf61;
+  color:#9e7d3f;
   /* color:#fff; */
   /* color: #b26460; */
 }
@@ -101,12 +101,12 @@ body {
 }
 
 .bg-gray-50{
-  /* color: #e2d688; */
+  color: #e2d688;
   color: #7a403e;
 }
 
 .text-neutral-600{
-  /* color: #c29c3d; */
+  color: #c29c3d;
   color: #7a403e;
 }
 
@@ -197,7 +197,8 @@ body {
 }
 
 .text-black{
-  color: rgb(210, 210, 210);
+  /* color: rgb(210, 210, 210); */
+  color: #c29c3d;
 }
 
 .img-container-product{
