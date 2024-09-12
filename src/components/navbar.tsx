@@ -16,7 +16,7 @@ function Navbar({ className }: { className?: string }) {
     >
       <Menu setActive={setActive}>
         <div className="logo">
-        <img src='https://shaif-ali-javad.github.io/image-storage/noha-gold-logo.png' alt="logo" className="logo"/>
+        <img src='https://shaif-ali-javad.github.io/image-storage/noha%20gold%20logo%20(1).png' alt="logo" className="logo"/>
         <p className="logo-name font-bold">NOHA GOLD</p>
         </div>
       {/* <p className="text-neutral-400 ">NOHA GOLD</p> */}
@@ -41,7 +41,7 @@ function Navbar({ className }: { className?: string }) {
     >
       <div className="bg-black p-6">
       <div className="logo">
-        <img src='https://shaif-ali-javad.github.io/image-storage/noha-gold-logo.png' alt="logo" className="logo-mobile"/>
+        <img src='https://shaif-ali-javad.github.io/image-storage/noha%20gold%20logo%20(1).png' alt="logo" className="logo-mobile"/>
         <p className="logo-mobile-name font-bold">NOHA GOLD</p>
         </div>
       
