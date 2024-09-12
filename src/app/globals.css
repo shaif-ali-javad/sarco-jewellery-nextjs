@@ -90,7 +90,7 @@ body {
 }
 
 .text-white{
-  color:#9e7d3f;
+  color:#c29c3d;
   /* color:#fff; */
   /* color: #b26460; */
 }
@@ -409,4 +409,9 @@ body {
   .height{
     height: 23rem;
   }
+}
+
+
+.mdcs{
+  margin: auto;
 }
