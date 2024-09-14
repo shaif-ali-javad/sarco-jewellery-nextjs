@@ -119,7 +119,7 @@ function Footer() {
           <div className='grid grid-cols-1 gap-8  pt-8 sm:grid-cols-1 lg:grid-cols-3 lg:pt-8 text-center'>
 
           <li>
-            <a href="#" className="text-black transition hover:opacity-75"> Location: Shop Number Six, Golden Building, Behind Gold Land Building, Deira Gold Souq </a>
+            <a href="#" className="text-black transition hover:opacity-75"> Location: Shop Number 6, Golden Building, Behind Gold Land Building, Deira Gold Souq </a>
           </li>
 
           <li>

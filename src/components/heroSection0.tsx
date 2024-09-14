@@ -42,8 +42,8 @@ function HeroSection() {
         </motion.h1>
         <motion.p className="font-medium text-xl md:text-2xl text-left bg-clip-text text-transparent bg-gradient-to-b text-black pt-4 w-3/5">
         Unveil our exquisite collection of gold bullion, meticulously crafted locally to the highest international standards.
-        </motion.p>
-        <button className="px-4 py-2 backdrop-blur-sm border bg-emerald-300/10 border-emerald-500/20 text-black-0 mx-auto text-center rounded-full relative pt-4 button-0 mdcs">
+        </motion.p>0
+        <button className="px-4 py-2 backdrop-blur-sm border bg-emerald-300/10 border-emerald-500/20 text-black-0 mx-auto text-center rounded-full relative mt-4 button-0 mdcs">
           <span>explore now →</span>
           <div className="absolute inset-x-0 h-px -bottom-px bg-gradient-to-r w-3/4 mx-auto from-transparent via-emerald-500 to-transparent" />
         </button>

@@ -28,6 +28,27 @@ function MusicSchoolContactUs() {
         <p className="text-black max-w-lg mx-auto my-2 text-sm text-center">
         Were here to assist you with any questions about our gold products, investment options. Reach out and let us know how we can help you in your journey to secure and grow your wealth with gold!
         </p>
+        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4 justify-items-center text-black mt-10 px-2 text-center w-dsd">
+  <div className=' relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-full h-auto rounded-xl p-7 border m-auto'>
+  <h2 className="text-white text-2xl mb-3">Location</h2>
+  <p>
+     Shop Number 6, Golden Building, Behind Gold Land Building, Deira Gold Souq
+    </p>
+     </div>
+     
+  <div className=' relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-full h-auto rounded-xl p-10 border m-auto'>
+  <h2 className="text-white text-2xl mb-3">Email</h2>
+  <p>
+     info@nohagold.ae
+    </p>
+  </div>
+  <div className=' relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-full h-auto rounded-xl p-10 border m-auto'>
+  <h2 className="text-white text-2xl mb-3">Phone</h2>
+  <p>
+   +971 50 897 0026
+  </p>
+  </div>
+</div>
         <form onSubmit={handleSubmit} className="space-y-4 mt-4">
           <input
             type="email"
@@ -54,27 +75,7 @@ function MusicSchoolContactUs() {
         </form>
 
       </div>
-        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4 justify-items-center text-black mt-10 px-2 text-center">
-  <div className=' relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-full h-auto rounded-xl p-10 border m-auto'>
-  <h2 className="text-white text-2xl mb-3">Location</h2>
-  <p>
-     Shop Number Six, Golden Building, Behind Gold Land Building, Deira Gold Souq
-    </p>
-     </div>
-     
-  <div className=' relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-full h-auto rounded-xl p-10 border m-auto'>
-  <h2 className="text-white text-2xl mb-3">Email</h2>
-  <p>
-     info@nohagold.ae
-    </p>
-  </div>
-  <div className=' relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-full h-auto rounded-xl p-10 border m-auto'>
-  <h2 className="text-white text-2xl mb-3">Phone</h2>
-  <p>
-   +971 50 897 0026
-  </p>
-  </div>
-</div>
+
     </div>
   );
 }
