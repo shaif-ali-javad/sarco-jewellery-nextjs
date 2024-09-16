@@ -40,7 +40,7 @@ function HeroSection() {
         <motion.h1 className="font-bold text-2xl md:text-4xl text-left text-white pt-10">
         Premium <span className="text-black-0">Gold Bullion:</span> Crafted to <span className="text-black-0">Perfection</span>
         </motion.h1>
-        <motion.p className="font-medium text-xl md:text-2xl text-left bg-clip-text text-transparent bg-gradient-to-b text-black pt-4 w-3/5">
+        <motion.p className="font-medium text-xl md:text-2xl text-left bg-clip-text bg-gradient-to-b text-black pt-4 w-3/5">
         Unveil our exquisite collection of gold bullion, meticulously crafted locally to the highest international standards.
         </motion.p>0
         <button className="px-4 py-2 backdrop-blur-sm border bg-emerald-300/10 border-emerald-500/20 text-black-0 mx-auto text-center rounded-full relative mt-4 button-0 mdcs">
