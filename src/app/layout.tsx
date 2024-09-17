@@ -19,10 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <head>
-        <style>{`
-          
-          `}
-        </style>
+        <style>{``}</style>
       </head>
       <body className={inter.className}>
         <div className="ralative w-full flex items-center justify-center">
